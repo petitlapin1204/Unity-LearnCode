@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 
+[System.Serializable]
 public class Soldier
 {
-    public int exp;
-    public int lv;
+    public int exp; //經驗值
+    public int lv;  //等級
 
     /// <summary>
     /// 設定經驗值，計算經驗值為：等級 乘上 10

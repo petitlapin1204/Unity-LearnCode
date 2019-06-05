@@ -6,11 +6,26 @@ public class Dog
     #region 欄位 //region是程式碼
     public string name;
     public float weight;
-    public string type;
-    public string sex;
+    public string type; 
     public string color;
-    public int age;
+
+    private string sex;
+    private int age;
     #endregion //有開頭就有結束
+
+    #region 建構函式
+    //建構函式可以多載
+    public Dog()
+    {
+
+    }
+
+    public Dog(string sex,int age)
+    {
+        this.sex = sex;
+        this.age = age;
+    }
+    #endregion
 
     #region 方法
     /// <summary>
